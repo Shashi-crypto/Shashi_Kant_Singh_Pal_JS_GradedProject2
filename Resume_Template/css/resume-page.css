@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.search-btn-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search-btn-container input {
+    margin: 0 50px;
+    width: 250px;
+    padding: 6px 10px;
+}
+
+.buttonStyle {
+    color: white;
+    background-color: #1a237ee0;
+    padding: 6px 10px;
+    margin: 5px 0px;
+    border: 1px solid #3949AB;
+    border-radius: 5px;
+    width: 130px;
+    cursor: pointer;
+    height: 33px;
+}
+
+.containerBoxStyle {
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+
+.resumeContainer {
+    margin: 0 30px 30px;
+}
+
+.invalidSearchContainer {
+    display: none;
+    margin: 80px auto auto;
+    width: 700px;
+}
+
+.errorImgContainer {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.errorImgContainer img {
+    height: 200px;
+}
+
+.errorMsg {
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: middle;
+    color: #000000a3;
+}
+
+.resumeHeader {
+    background-color: rgb(192, 249, 230);
+    justify-content: center;
+}
+
+.resumeHeader p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.resumeHeader #applicantName {
+    font-size: 40px;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
+.resumeHeader #positionAppliedFor {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.profileImgContainer {
+    position: relative;
+}
+
+.profileImgContainer img {
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    right: 60px;
+    position: absolute;
+}
+
+.applicantProfile {
+    display: flex;
+}
+
+.personalInfoBoxStyle {
+    background-color: rgb(242, 218, 212);
+    width: 150px;
+    margin-left: 15px;
+    height: fit-content;
+}
+
+.personalInfo {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.personalInfo h4 {
+    background-color: rgb(195, 194, 194);
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.mainSection {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.mainSection span {
+    font-weight: bold;
+}
+
+ul {
+    font-size: 15px;
+}
+
+.li-margin {
+    margin: 1rem 0;
+}
+
+.noListStyle {
+    list-style-type: none;
+}
+
+.workExpSection h3 {
+    margin-top: 0px;
+}
+
+.technicalSkillsList,
+.hobbiesList {
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .profileImgContainer img {
+        top: 6px;
+        right: 5px;
+    }
+
+    .resumeHeader #applicantName {
+        font-size: 30px;
+    }
+
+    .search-btn-container input {
+        width: 44%;
+        margin: 0 10px;
+        text-overflow: ellipsis;
+    }
+
+    .buttonStyle {
+        width: 17%;
+    }
+}
